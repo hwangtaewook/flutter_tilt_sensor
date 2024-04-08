@@ -54,7 +54,7 @@ class SensorApp extends StatelessWidget {
                 print(accelerometerValues);
 
                 return Positioned(
-                  left: centerX + event.y * 20,
+                  left: centerX + event.y * 40,
                   top: centerY + event.x * 20,
                   child: Container(
                     decoration: BoxDecoration(
